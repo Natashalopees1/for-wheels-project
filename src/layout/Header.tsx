@@ -3,6 +3,7 @@ import { HeaderNav } from "../styled";
 import { BrowserRouter, Link } from "react-router-dom";
 import menuImage from "../assets/img/menu.svg";
 import whiteImage from "../assets/img/white.png";
+import Home from "../pages/Home";
 
 function Header() {
   // Estado para controlar se o menu está aberto ou fechado
