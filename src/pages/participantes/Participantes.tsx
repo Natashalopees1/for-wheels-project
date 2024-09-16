@@ -5,7 +5,7 @@ import participante3 from "../../assets/img/felipe.png"
 
 const listaParticipantes = [
     {
-        nome: 'Natasha Lopes',
+        nome: 'Natasha Lopes Rocha Oliveira',
         posicao: 'Desenvolvedora Front-End',
         rm: 'RM93423',
         img: participante1
