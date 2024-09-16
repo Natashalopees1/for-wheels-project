@@ -11,7 +11,7 @@ const listaParticipantes = [
         img: participante1
     },
     {
-        nome: 'Gustavo Lazzuri',
+        nome: 'Gustavo Ramires Lazzuri',
         posicao: 'Desenvolvedor Back-End',
         rm: 'RM556772',
         img: participante2
