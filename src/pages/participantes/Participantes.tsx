@@ -17,7 +17,7 @@ const listaParticipantes = [
         img: participante2
     },
     {
-        nome: 'Felipe Rodrigues',
+        nome: 'Felipe Rodrigues Moreira',
         posicao: 'Analista de Inteligência Artificial',
         rm: 'RM555121',
         img: participante3
