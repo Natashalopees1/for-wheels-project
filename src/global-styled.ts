@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", Helvetica, sans-serif;
+  
 }
 `
 export default GlobalStyle
