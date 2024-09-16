@@ -1,50 +1,78 @@
-# React + TypeScript + Vite
+\# 📱 Projeto Vite + React + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de exemplo utilizando \*\*Vite\*\* como bundler, \*\*React\*\* para construção de interfaces e \*\*TypeScript\*\* para tipagem estática.
 
-Currently, two official plugins are available:
+\---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+\## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- \*\*Vite\*\*: Para desenvolvimento rápido com HMR (Hot Module Replacement).
+- \*\*React\*\*: Biblioteca para criação de interfaces de usuário.
+- \*\*TypeScript\*\*: Tipagem estática para JavaScript.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+\---
 
-- Configure the top-level `parserOptions` property like this:
+\## 🚀 Como Rodar o Projeto
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+\### ⚡ Pré-requisitos
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Antes de começar, você precisará ter instalado em sua máquina:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- \*\*[Node.js](https://nodejs.org/)\*\* (versão 14+)
+- \*\*NPM\*\* ou \*\*Yarn\*\* (Gerenciador de pacotes)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+\### 📝 Passo a Passo
+
+1. \*\*Clone o repositório:\*\*
+
+\```bash
+
+git clone https://github.com/Natashalopees1/for-wheels-project.git 
+
+Entre no diretório do projeto:
+
+bash
+
+Copiar código
+
+cd for-wheels-project
+
+Instale as dependências:
+
+Com npm:
+
+bash
+
+Copiar código
+
+npm install
+
+Com yarn:
+
+bash
+
+Copiar código
+
+yarn
+
+Execute o servidor de desenvolvimento:
+
+Com npm:
+
+bash
+
+Copiar código
+
+npm run dev
+
+Com yarn:
+
+bash
+
+Copiar código
+
+yarn dev
+
+Abra o projeto no navegador:
+
+Vá para http://localhost:5174/
